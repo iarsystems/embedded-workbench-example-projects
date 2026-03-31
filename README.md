@@ -13,7 +13,7 @@ Find project examples for Arm.
 | <img alt="Renesas" src="https://avatars.githubusercontent.com/u/53460929?s=64&v=4"> | [Renesas RA MCU Project Examples](https://github.com/renesas/ra-fsp-examples)<br>using Flexible Software Package (FSP).
 | <img alt="TI" src="https://avatars.githubusercontent.com/u/24322022?s=64&v=4">      | Explore [repositories](https://github.com/TexasInstruments#explore-repositories-by-product-category) by product category.
 | <img alt="Toshiba" src="https://avatars.githubusercontent.com/u/10274846?s=64&v=4"> | IAR-hosted Project [examples](https://github.com/iarsystems/ewarm-toshiba-project-examples).
-| <img alt="IAR" src="https://avatars.githubusercontent.com/u/64431848?s=64&v=4">     | IAR STM32F429II Academy Board [examples](https://github.com/iarsystems/stm32f429ii-board-examples).
+| <img alt="IAR" src="https://avatars.githubusercontent.com/u/64431848?s=64&v=4">     | IAR STM32F429II Academy Board [examples](https://github.com/iarsystems/ewarm-st-example-projects/tree/master/STM32F4xx/IAR-STM32F429II-ACA).
 
 ## For RISC-V
 Find project examples for RISC-V.
