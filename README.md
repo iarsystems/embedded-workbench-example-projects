@@ -8,7 +8,7 @@ Find project examples for Arm.
 | Vendor | Links
 | -                                                                                   | -
 | <img alt="ADI" src="https://avatars.githubusercontent.com/u/2465527?s=64&v=4">      | Project [examples](https://github.com/iarsystems/ewarm-analog-devices-project-examples).
-| <img alt="ST" src="https://avatars.githubusercontent.com/u/10744877?s=64&v=4">      | STMicroelectronics [STM32Cube](https://github.com/stmicroelectronics/stm32cube_mcu_overall_offer/blob/master/STM32Cube_HAL1_Offer.md) software.
+| <img alt="ST" src="https://avatars.githubusercontent.com/u/10744877?s=64&v=4">      | - STMicroelectronics [STM32Cube](https://github.com/stmicroelectronics/stm32cube_mcu_overall_offer/blob/master/STM32Cube_HAL1_Offer.md) software.<br>- IAR-hosted [examples](https://github.com/iarsystems/ewarm-st-project-examples).
 | <img alt="NXP" src="https://avatars.githubusercontent.com/u/15616545?s=64&v=4">     | [Application Code Hub](https://mcuxpresso.nxp.com/appcodehub?toolchain=iar&appFormat=projectfile).
 | <img alt="Renesas" src="https://avatars.githubusercontent.com/u/53460929?s=64&v=4"> | [Renesas RA MCU Project Examples](https://github.com/renesas/ra-fsp-examples)<br>using Flexible Software Package (FSP).
 | <img alt="TI" src="https://avatars.githubusercontent.com/u/24322022?s=64&v=4">      | Explore [repositories](https://github.com/TexasInstruments#explore-repositories-by-product-category) by product category.
