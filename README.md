@@ -1,6 +1,6 @@
 # Embedded Workbench Project Examples
 
-This repository offers a compedium of links to device vendor repositories with project examples.
+This repository offers a compendium of links to device vendor repositories with project examples.
 
 ## For Arm
 Find project examples for Arm.
