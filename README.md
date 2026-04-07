@@ -2,6 +2,10 @@
 
 This repository offers a compendium of links to device vendor repositories with project examples.
 
+## Quick Navigation
+- [Arm Project Examples](#for-arm)
+- [RISC-V Project Examples](#for-risc-v)
+
 ## For Arm
 Find project examples for Arm.
 
