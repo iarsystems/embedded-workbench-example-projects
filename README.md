@@ -1,4 +1,4 @@
-# Embedded Workbench Project Examples
+# IAR Embedded Workbench Project Examples
 
 This repository offers a compendium of links to device vendor repositories with project examples.
 
