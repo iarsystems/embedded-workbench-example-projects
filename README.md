@@ -72,5 +72,3 @@ Find Example projects for RISC-V.
 | Vendor       | Links                                                                                                                                                                                                                                          | Archive
 | :----------- | -                                                                                                                                                                                                                                              | -
 | **FreeRTOS** | - FreeRTOS Example projects [repository](https://github.com/FreeRTOS/FreeRTOS).                                                                                                                                                                | -
-- [Arm Example projects](#for-arm)
-- [RISC-V Example projects](#for-risc-v)
