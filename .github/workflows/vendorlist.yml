@@ -20,7 +20,7 @@ jobs:
     - name: Upload vendors
       uses: actions/upload-artifact@v7
       with:
-        name: vendorlist
+        name: ewarm-vendor-list
         if-no-files-found: error
         path: |
           ewarm-vendors.txt
