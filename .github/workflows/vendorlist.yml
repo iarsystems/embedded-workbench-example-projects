@@ -8,12 +8,11 @@ on:
   # Run the workflow manually
   workflow_dispatch:
 
-env:
-  GH_TOKEN: ${{ github.token }}
-
 jobs:
   generate-vendor-list:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - run: |
         gh repo list iarsystems --limit 1000 | grep 'ewarm-.*-example-projects' | cut -f1 > vendors.txt
