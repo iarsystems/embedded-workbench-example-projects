@@ -15,8 +15,8 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - run: |
-        gh repo list iarsystems --limit 1000 | grep 'ewarm-.*-example-projects' | cut -f1
-        gh repo list iarsystems --limit 1000 | grep 'ewarm-.*-example-projects' | cut -f1 > vendors.txt
+        gh repo list iarsystems --limit 1000
+        gh repo list iarsystems --limit 1000 > ewarm-vendors.txt
 
     - name: Upload vendors
       uses: actions/upload-artifact@v7
@@ -24,4 +24,4 @@ jobs:
         name: vendorlist
         if-no-files-found: error
         path: |
-          vendors.txt
+          ewarm-vendors.txt
