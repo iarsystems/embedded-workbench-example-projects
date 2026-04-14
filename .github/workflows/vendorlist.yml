@@ -15,6 +15,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - run: |
+        gh repo list iarsystems --limit 1000 | grep 'ewarm-.*-example-projects' | cut -f1
         gh repo list iarsystems --limit 1000 | grep 'ewarm-.*-example-projects' | cut -f1 > vendors.txt
 
     - name: Upload vendors
