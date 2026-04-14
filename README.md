@@ -57,9 +57,9 @@ Find example projects for Arm.
 | Vendor                     | Links                                                                                                                                                                                                                                          | Archive
 | -                          | -                                                                                                                                                                                                                                              | - 
 | **Zephyr**                 | - Zephyr example projects [repository](https://github.com/iarsystems/zephyr-board-samples).                                                                                                                                                    | [Download](https://github.com/iarsystems/zephyr-board-samples/archive/refs/heads/master.zip) (.zip)<br>[Download](https://github.com/iarsystems/zephyr-board-samples/archive/refs/heads/master.tar.gz) (.tar.gz)
-| **IAR-CMSIS-DSP**          | - [CMSIS-DSP](https://github.com/iarsystems/iar-cmsis-dsp) for Embedded Workbench for Arm.
+| **IAR-CMSIS-DSP**          | - [CMSIS-DSP](https://github.com/iarsystems/iar-cmsis-dsp) for Embedded Workbench for Arm.                                                                                                                                                     | -
 | **FreeRTOS**               | - FreeRTOS example projects [repository](https://github.com/FreeRTOS/FreeRTOS).                                                                                                                                                                | -
-| **IAR**                    | - IAR STM32F429II Academy Board [examples](https://github.com/iarsystems/ewarm-st-example-projects/tree/master/STM32F4xx/IAR-STM32F429II-ACA).                                                                                                   | -
+| **IAR**                    | - IAR STM32F429II Academy Board [examples](https://github.com/iarsystems/ewarm-st-example-projects/tree/master/STM32F4xx/IAR-STM32F429II-ACA).                                                                                                 | -
 
 ## For RISC-V
 Find example projects for RISC-V.
