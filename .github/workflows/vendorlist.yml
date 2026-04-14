@@ -15,8 +15,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - run: |
-        gh repo list iarsystems --limit 1000
-        gh repo list iarsystems --limit 1000 > ewarm-vendors.txt
+        gh repo list iarsystems --limit 1000 | cut -f1 > ewarm-vendors.txt
 
     - name: Upload vendors
       uses: actions/upload-artifact@v7
