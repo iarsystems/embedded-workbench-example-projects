@@ -1,0 +1,27 @@
+name: Generate the vendor list
+
+on: 
+  # Run the workflow when new code is pushed to the repository
+  push:
+    branches:
+    - main
+  # Run the workflow manually
+  workflow_dispatch:
+
+env:
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  generate-vendor-list:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        gh repo list iarsystems --limit 1000 | grep 'ewarm-.*-example-projects' | cut -f1 > vendors.txt
+
+    - name: Upload vendors
+      uses: actions/upload-artifact@v7
+      with:
+        name: firmwares-srec-hex
+        if-no-files-found: error
+        path: |
+          vendors.txt
