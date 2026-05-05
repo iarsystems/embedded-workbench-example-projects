@@ -2,6 +2,9 @@
 
 This repository offers a compendium of links to device vendor repositories with example projects.
 
+>[!IMPORTANT]
+>See [important notes](NOTES.md)
+
 ## Quick Navigation
 - [Arm example projects](#for-arm)
 - [RISC-V example projects](#for-risc-v)
