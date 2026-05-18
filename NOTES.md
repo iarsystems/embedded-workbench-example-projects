@@ -25,7 +25,7 @@ mklink -d ../../cmsis_5/CMSIS
 ```
 
 ### File names on Linux
-Many legacy projecs were developed primarily on Windows, where file systems are case-insensitive. As a result, **you may encounter case-sensitivity issues when building these projects on Linux**.
+Many legacy projects were developed primarily on Windows, where file systems are case-insensitive. As a result, **you may encounter case-sensitivity issues when building these projects on Linux**.
 
 Linux treats file names like `MyFavoriteMCU.icf`, `MYFAVORITEMCU.ICF`, and `myfavoritemcu.icf` as completely different files, whereas Windows sees them as the same. This can lead to broken file references, missing assets, or building errors if the exact case doesn't match.
 
