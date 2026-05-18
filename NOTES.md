@@ -1,6 +1,6 @@
 ## Important Notes
 
-### Updated CMSIS headers
+### Missing CMSIS headers
 CMSIS, or Cortex Microcontroller Software Interface Standard, consists of a vendor-independent hardware abstraction layer for Arm Cortex processors which provides consistent device support. Developed by Arm, it provides simple software interfaces to the processor and the peripherals, simplifying software re-use, reducing the learning curve for developers, and reducing the time to market for new devices.
 
 Some of the example projects use legacy versions of CMSIS. When building a project requiring them, you might face a fatal error such as:
@@ -23,3 +23,10 @@ mklink -d ewarm-10.xx.x ewarm
 cd ewarm/arm
 mklink -d ../../cmsis_5/CMSIS
 ```
+
+### File names on Linux
+Many legacy projecs were developed primarily on Windows, where file systems are case-insensitive. As a result, **you may encounter case-sensitivity issues when building these projects on Linux**.
+
+Linux treats file names like `MyFavoriteMCU.icf`, `MYFAVORITEMCU.ICF`, and `myfavoritemcu.icf` as completely different files, whereas Windows sees them as the same. This can lead to broken file references, missing assets, or building errors if the exact case doesn't match.
+
+Adjusting the affected file names to comply with such requirements should fix these issues.
