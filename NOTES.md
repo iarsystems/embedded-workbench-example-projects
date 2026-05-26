@@ -32,4 +32,4 @@ Linux treats file names like `MyFavoriteMCU.icf`, `MYFAVORITEMCU.ICF`, and `myfa
 Adjusting the affected file names to comply with such requirements should fix these issues.
 
 ### Path names on Linux
-Many legacy projects were developed primarily on Windows, where the path separators can be either backward-slash `\` or forward-slash `/`. Backward-slashes however are not portable across Linux file systems. Projects using backward-slashes will need to be adjusted in favor or portable path names wherever required.
+Many legacy projects were developed primarily on Windows, where the path separators can be either backward-slash `\` or forward-slash `/`. Backward-slashes however are not portable across Linux file systems. Projects using backward-slashes will need to be adjusted in favor of portable path names wherever required.
