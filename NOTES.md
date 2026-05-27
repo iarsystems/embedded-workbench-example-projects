@@ -1,3 +1,8 @@
+<!-- NOTE FOR  EDITORS OF THIS FILE 
+This file is linked to from the EWARM 10.10 release notes regarding "Missing CMSIS headers". 
+This should be taken into account when chaing the file 
+END OF NOTE -->
+
 ## Important Notes
 
 ### Missing CMSIS headers
