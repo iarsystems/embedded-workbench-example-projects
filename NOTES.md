@@ -19,10 +19,10 @@ ln -s ../../cmsis_5/CMSIS
 ```
 cd /iar/
 git clone https://github.com/arm-software/cmsis_5
-mklink /D ewarm-10.xx.x ewarm
-cd ewarm/arm
-mklink /D ../../cmsis_5/CMSIS
+cd ewarm-10.xx.x/arm
+mklink /D ..\..\cmsis_5\CMSIS
 ```
+Replace `ewarm-10.xx.x` by its actual version.
 
 ### File names on Linux
 Many legacy projects were developed primarily on Windows, where file systems are case-insensitive. As a result, **you may encounter case-sensitivity issues when building these projects on Linux**.
