@@ -19,9 +19,9 @@ ln -s ../../cmsis_5/CMSIS
 ```
 cd /iar/
 git clone https://github.com/arm-software/cmsis_5
-mklink -d ewarm-10.xx.x ewarm
+mklink /D ewarm-10.xx.x ewarm
 cd ewarm/arm
-mklink -d ../../cmsis_5/CMSIS
+mklink /D ../../cmsis_5/CMSIS
 ```
 
 ### File names on Linux
