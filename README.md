@@ -1,13 +1,15 @@
 # IAR Embedded Workbench Example Projects
 
-This repository offers a compendium of links to device vendor repositories with example projects.
+This repository offers a compendium of links to device vendor repositories with example projects and more.
 
 >[!IMPORTANT]
 >See [important notes](NOTES.md)
 
 ## Quick Navigation
-- [Arm example projects](#for-arm)
-- [RISC-V example projects](#for-risc-v)
+[Arm example projects](#for-arm) | [RISC-V example projects](#for-risc-v)
+
+## Tutorials
+- [Building and Debugging CMake projects](https://github.com/iarsystems/cmake-tutorial/wiki/Building-and-Debugging-from-the-Embedded-Workbench)
 
 ## For Arm
 Find example projects for Arm.
