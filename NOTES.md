@@ -11,8 +11,23 @@ CMSIS, or Cortex Microcontroller Software Interface Standard, consists of a vend
 Some of the example projects use legacy versions of CMSIS. When building a project requiring them, you might face a fatal error such as:
 
 >Fatal Error[Pe1696]: cannot open source file “core_cm3.h”
+## Solution 1
+For the latest CMSIS, update the project settings to match your environment.
 
-The recommended solution is to use `git` for fetching the required CMSIS headers:
+Clone `CMSIS_6`:
+```
+git clone https://github.com/ARM-software/CMSIS_6.git
+```
+Go to **Project Options > C/C++ Compiler > Preprocessor > Additional Include Directories** then add:
+```
+<path/to/CMSIS_6>/CMSIS/Core/Include
+```
+Note that some registers changed from `CMSIS_5` to `CMSIS_6`, so that migrating code might be required in some cases. In such cases, consider [Solution 2](#solution-2).
+
+## Solution 2
+For a seamless experience, create a symbolic link for supplying the `CMSIS/` folder so that no project modification is required.
+
+Use `git` for fetching the required CMSIS headers:
 * Linux (as root):
 ```
 cd /opt/iar/
@@ -27,7 +42,7 @@ git clone https://github.com/arm-software/cmsis_5
 cd ewarm-10.xx.x/arm
 mklink /D ..\..\cmsis_5\CMSIS
 ```
-Replace `ewarm-10.xx.x` by its actual version.
+Replace `ewarm-10.xx.x` by its actual version. The same `cmsis_5` folder can 
 
 ### File names on Linux
 Many legacy projects were developed primarily on Windows, where file systems are case-insensitive. As a result, **you may encounter case-sensitivity issues when building these projects on Linux**.
