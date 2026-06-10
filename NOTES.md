@@ -25,24 +25,16 @@ Go to **Project Options > C/C++ Compiler > Preprocessor > Additional Include Dir
 Note that some registers changed from `CMSIS_5` to `CMSIS_6`, so that migrating code might be required in some cases. In such cases, consider [Solution 2](#solution-2).
 
 ## Solution 2
-For a seamless experience, create a symbolic link for supplying the `CMSIS/` folder so that no project modification is required.
+Use CMSIS 5 for a seamless experience so that no code migration should be necessary.
 
-Use `git` for fetching the required CMSIS headers:
-* Linux (as root):
+Clone `CMSIS_5`:
 ```
-cd /opt/iar/
-git clone https://github.com/arm-software/cmsis_5
-cd ewarm/arm
-ln -s ../../cmsis_5/CMSIS
+git clone https://github.com/ARM-software/CMSIS_5.git
 ```
-* Windows (Administrative Command Prompt):
+Go to **Project Options > C/C++ Compiler > Preprocessor > Additional Include Directories** then add:
 ```
-cd /iar/
-git clone https://github.com/arm-software/cmsis_5
-cd ewarm-10.xx.x/arm
-mklink /D ..\..\cmsis_5\CMSIS
+<path/to/CMSIS_5>/CMSIS/Core/Include
 ```
-Replace `ewarm-10.xx.x` by its actual version. The same `cmsis_5` folder can be utilized by more than one Embedded Workbench instance.
 
 ### File names on Linux
 Many legacy projects were developed primarily on Windows, where file systems are case-insensitive. As a result, **you may encounter case-sensitivity issues when building these projects on Linux**.
