@@ -240,7 +240,7 @@ Find example projects for Arm.
 
 | Middleware                                              | Archive
 | -                                                       | -
-| [Zephyr example application][mw-arm-zephyr-bs-url]      | [Download][mw-arm-zephyr-ea-zip-url] (.zip)<br>[Download][mw-arm-zephyr-ea-zip-url] (.tar.gz)
+| [Zephyr example application][mw-arm-zephyr-ea-url]      | [Download][mw-arm-zephyr-ea-zip-url] (.zip)<br>[Download][mw-arm-zephyr-ea-zip-url] (.tar.gz)
 | [Zephyr board samples][mw-arm-zephyr-bs-url]            | [Download][mw-arm-zephyr-bs-zip-url] (.zip)<br>[Download][mw-arm-zephyr-bs-zip-url] (.tar.gz)
 | [FreeRTOS example projects][mw-arm-freertos-url]        | -
 | [CMSIS-DSP][mw-arm-cmsis-dsp-url]                       | -
