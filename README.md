@@ -39,7 +39,7 @@ Find example projects for Arm.
 | [Infineon][vendor-infineon-url]                 | [Download][vendor-infineon-zip-url]  (.zip)          <br>[Download][vendor-infineon-tgz-url]  (.tar.gz)               | [Infineon][vendor-infineon-extras1-url] on GitHub
 | [Lapis][vendor-lapis-url]                       | [Download][vendor-lapis-zip-url]  (.zip)             <br>[Download][vendor-lapis-tgz-url]  (.tar.gz)                  | 
 | [MediaTek][vendor-mediatek-url]                 | [Download][vendor-mediatek-zip-url]  (.zip)          <br>[Download][vendor-mediatek-tgz-url]  (.tar.gz)               | 
-| [Microchip][vendor-microchip-url]               | [Download][vendor-microchip-zip-url]  (.zip)         <br>[Download][vendor-microchip-tgz-url]  (.tar.gz)              | [Microchip Technology][vendor-infineon-extras1-url] on GitHub
+| [Microchip][vendor-microchip-url]               | [Download][vendor-microchip-zip-url]  (.zip)         <br>[Download][vendor-microchip-tgz-url]  (.tar.gz)              | [Microchip Technology][vendor-microchip-extras1-url] on GitHub
 | [MindMotion][vendor-mindmotion-url]             | [Download][vendor-mindmotion-zip-url]  (.zip)        <br>[Download][vendor-mindmotion-tgz-url]  (.tar.gz)             | 
 | [Nordic Semiconductor][vendor-nordicsemi-url]   | [Download][vendor-nordicsemi-zip-url]  (.zip)        <br>[Download][vendor-nordicsemi-tgz-url]  (.tar.gz)             | 
 | [Nuvoton][vendor-nuvoton-url]                   | [Download][vendor-nuvoton-zip-url]  (.zip)           <br>[Download][vendor-nuvoton-tgz-url]  (.tar.gz)                | 
