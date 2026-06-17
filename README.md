@@ -151,7 +151,7 @@ Find example projects for Arm.
 [vendor-microchip-url]: https://github.com/iarsystems/ewarm-microchip-example-projects
 [vendor-microchip-zip-url]: https://github.com/iarsystems/ewarm-microchip-example-projects/archive/refs/heads/master.zip
 [vendor-microchip-tgz-url]: https://github.com/iarsystems/ewarm-microchip-example-projects/archive/refs/heads/master.tar.gz
-[vendor-microchip-extras1-url]: https://github.com/MicrochipTech
+[vendor-microchip-extras1-url]: https://www.microchip.com/en-us/software-library
 
 [vendor-mindmotion-url]: https://github.com/iarsystems/ewarm-mindmotion-example-projects
 [vendor-mindmotion-zip-url]: https://github.com/iarsystems/ewarm-mindmotion-example-projects/archive/refs/heads/master.zip
