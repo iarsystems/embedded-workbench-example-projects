@@ -191,9 +191,9 @@ Find example projects for Arm.
 [vendor-samsung-zip-url]: https://github.com/iarsystems/ewarm-samsung-example-projects/archive/refs/heads/master.zip
 [vendor-samsung-tgz-url]: https://github.com/iarsystems/ewarm-samsung-example-projects/archive/refs/heads/master.tar.gz
 
-[vendor-silabs-url]: https://github.com/iarsystems/ewarm-silabs-example-projects
-[vendor-silabs-zip-url]: https://github.com/iarsystems/ewarm-silabs-example-projects/archive/refs/heads/master.zip
-[vendor-silabs-tgz-url]: https://github.com/iarsystems/ewarm-silabs-example-projects/archive/refs/heads/master.tar.gz
+[vendor-silabs-url]: https://github.com/iarsystems/ewarm-silicon-laboratories-example-projects
+[vendor-silabs-zip-url]: https://github.com/iarsystems/ewarm-silicon-laboratories-example-projects/archive/refs/heads/master.zip
+[vendor-silabs-tgz-url]: https://github.com/iarsystems/ewarm-silicon-laboratories-example-projects/archive/refs/heads/master.tar.gz
 [vendor-silabs-extras1-url]: https://github.com/SiliconLabs
 
 [vendor-sonix-url]: https://github.com/iarsystems/ewarm-sonix-example-projects
