@@ -6,7 +6,7 @@ This repository offers a compendium of links to device vendor repositories with 
 >See [important notes](NOTES.md)
 
 ## Quick Navigation
-[Arm example projects](#for-arm) | [RISC-V example projects](#for-risc-v)
+[Arm example projects](#for-arm) | [RISC-V example projects](#for-risc-v) | [RX example projects](#for-rx)
 
 ## Tutorials
 - [Building and Debugging CMake projects](https://github.com/iarsystems/cmake-tutorial/wiki/Building-and-Debugging-from-the-Embedded-Workbench)
@@ -279,3 +279,25 @@ Find example projects for RISC-V.
 
 <!-- Middleware links -->
 [mw-riscv-freertos-url]: https://github.com/FreeRTOS/FreeRTOS
+
+
+## For RX
+Find example projects for RX.
+
+| Vendor                                          | Archive                                                                                                               | Additional Links
+| -                                               | -                                                                                                                     | -
+| [IAR RX Board][vendor-rx-iar-url]        | [Download][vendor-rx-iar-zip-url]  (.zip)         <br>[Download][vendor-rx-iar-tgz-url]  (.tar.gz)              |
+
+[vendor-rx-iar-url]: https://github.com/iarsystems/rx-board-examples
+[vendor-rx-iar-zip-url]: https://github.com/iarsystems/rx-board-examples/archive/refs/heads/main.zip
+[vendor-rx-iar-tgz-url]: https://github.com/iarsystems/rx-board-examples/archive/refs/heads/main.tar.gz
+
+
+### Middleware
+
+| Middleware                                              | Archive
+| -                                                       | -
+| [FreeRTOS example projects][mw-rx-freertos-url]      | -
+
+<!-- Middleware links -->
+[mw-rx-freertos-url]: https://github.com/FreeRTOS/FreeRTOS
