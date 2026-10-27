@@ -292,12 +292,3 @@ Find example projects for RX.
 [vendor-rx-iar-zip-url]: https://github.com/iarsystems/rx-board-examples/archive/refs/heads/main.zip
 [vendor-rx-iar-tgz-url]: https://github.com/iarsystems/rx-board-examples/archive/refs/heads/main.tar.gz
 
-
-### Middleware
-
-| Middleware                                              | Archive
-| -                                                       | -
-| [FreeRTOS example projects][mw-rx-freertos-url]      | -
-
-<!-- Middleware links -->
-[mw-rx-freertos-url]: https://github.com/FreeRTOS/FreeRTOS
